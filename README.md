@@ -1,15 +1,15 @@
 # Projet Service Web Bancaire - Architecture Client-Serveur SOAP
-## 👨‍💻 Auteur
+##  Auteur
 
 **Ayyoub ait mansour ** - Développeur
 
 ---
 
-## 📋 Description du Projet
+##  Description du Projet
 
 Ce projet est composé de **deux applications distinctes** qui implémentent une architecture client-serveur basée sur les services web SOAP pour la gestion de comptes bancaires.
 
-## 🏗️ Architecture Globale
+##  Architecture Globale
 
 ### Projet 1 : Service Web SOAP (Serveur)
 **Répertoire** : `webService_soap2/`
@@ -21,7 +21,7 @@ Le serveur expose les services bancaires via SOAP et génère automatiquement le
 
 Le client utilise le code Java généré automatiquement à partir du WSDL pour consommer les services.
 
-## 🔧 Projet 1 - Service Web SOAP (Serveur)
+##  Projet 1 - Service Web SOAP (Serveur)
 
 ### Structure du Serveur
 ```
@@ -62,7 +62,7 @@ public class ServeurJWS {
 
 ![WSDL Structure](img/img1.png)
 
-## 🖥️ Projet 2 - Client Java (Consommateur)
+##  Projet 2 - Client Java (Consommateur)
 
 ### Structure du Client
 ```
@@ -124,7 +124,7 @@ public class Main {
 
 
 
-## 🧪 Tests avec SoapUI
+##  Tests avec SoapUI
 
 ### Configuration SoapUI
 - **Endpoint** : `http://0.0.0.0:9090/`
