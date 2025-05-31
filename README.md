@@ -130,7 +130,6 @@ public class Main {
 - **Endpoint** : `http://0.0.0.0:9090/`
 - **WSDL** : `http://localhost:9090/BanqueWS?wsdl`
 
-![SoapUI Config](img/img3.png)
 
 ### Test du Service listComptes
 
